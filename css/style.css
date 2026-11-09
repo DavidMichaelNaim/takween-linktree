@@ -170,7 +170,8 @@ body {
   aspect-ratio: 177 / 57;
   height: auto;
   overflow: visible;
-  margin: 0 auto 8px;        /* ← bottom gap بين الشعار والسلوجن */
+  margin: 0 auto 60px;
+  /* ← bottom gap بين الشعار والسلوجن */
   filter: brightness(0) invert(1) drop-shadow(0 6px 24px rgba(0, 0, 0, 0.4));
   transition: transform var(--transition-bounce), filter var(--transition-fast);
   cursor: default;
@@ -848,8 +849,10 @@ body {
   }
 
   .brand-logo {
-    width: 220px;        /* حجم الشعار على الموبايل */
-    margin-bottom: 6px;  /* مسافة أسفل الشعار على الموبايل */
+    width: 220px;
+    /* حجم الشعار على الموبايل */
+    margin-bottom: 45px;
+    /* مسافة أسفل الشعار على الموبايل */
   }
 
   .brand-slogan-badge {
