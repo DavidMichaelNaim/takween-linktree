@@ -161,13 +161,15 @@ body {
   border: 0;
 }
 
-/* Logo — Frameless, direct display (White matching card) */
+/* Logo — Inline SVG, frameless (White matching card) */
 .brand-logo {
+  display: block;
   width: 450px;
   max-width: 100%;
+  /* viewBox="0 0 243.6 147.6" → aspect ratio 243.6/147.6 */
+  aspect-ratio: 243.6 / 147.6;
   height: auto;
-  object-fit: contain;
-  /* margin-bottom: 22px; */
+  overflow: visible;
   filter: brightness(0) invert(1) drop-shadow(0 6px 24px rgba(0, 0, 0, 0.4));
   transition: transform var(--transition-bounce), filter var(--transition-fast);
   cursor: default;
