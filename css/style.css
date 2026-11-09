@@ -163,8 +163,8 @@ body {
 
 /* Logo — Frameless, direct display (White matching card) */
 .brand-logo {
-  width: 350px;
-  max-width: 90%;
+  width: 450px;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
   /* margin-bottom: 22px; */

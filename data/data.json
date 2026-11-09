@@ -35,26 +35,6 @@
       "isExternal": true
     }
   ],
-  "socialIcons": [
-    {
-      "name": "واتساب",
-      "url": "https://wa.me/201099314937",
-      "icon": "whatsapp",
-      "ariaLabel": "تواصل عبر واتساب"
-    },
-    {
-      "name": "فيسبوك",
-      "url": "https://www.facebook.com/profile.php?id=61595610625652",
-      "icon": "facebook",
-      "ariaLabel": "صفحة فيسبوك"
-    },
-    {
-      "name": "اتصال",
-      "url": "tel:+201099314937",
-      "icon": "phone",
-      "ariaLabel": "اتصال هاتفي"
-    }
-  ],
   "footer": {
     "copyright": "جميع الحقوق محفوظة © تكوين Takween",
     "year": 2026
