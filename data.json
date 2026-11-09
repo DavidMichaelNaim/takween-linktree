@@ -1,14 +1,14 @@
 {
   "brand": {
     "name": "تكوين | Takween",
-    "tagline": "3D Printing & Digital Fabrication",
-    "description": "حلول الطباعة ثلاثية الأبعاد والتصميم المبتكر. تواصل معنا واكتشف منتجاتنا.",
+    "slogan": "هديتك... على طريقتك",
+    "description": "شكرًا لثقتك واختيارك لينا — سعداء إننا كنا جزء من اختيارك",
     "logo": "logo.svg"
   },
   "featuredAction": {
     "id": "catalog",
     "title": "تصفح كتالوج المنتجات",
-    "subtitle": "اكتشف أحدث التصاميم والمنتجات (Google Drive)",
+    "subtitle": "اكتشف أحدث التصاميم والمنتجات",
     "url": "https://drive.google.com/file/d/1kdmuynI2LaT-xco_KB71YyWGpDWmgU9D/view?usp=sharing",
     "badge": "جديد ومميز",
     "icon": "catalog",

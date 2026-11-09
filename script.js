@@ -6,8 +6,8 @@
 const DEFAULT_DATA = {
   brand: {
     name: "تكوين | Takween",
-    tagline: "3D Printing & Digital Fabrication",
-    description: "حلول الطباعة ثلاثية الأبعاد والتصميم المبتكر. تواصل معنا واكتشف منتجاتنا.",
+    slogan: "هديتك... على طريقتك",
+    description: "شكرًا لثقتك واختيارك لينا — سعداء إننا كنا جزء من اختيارك",
     logo: "logo.svg"
   },
   featuredAction: {
@@ -170,13 +170,13 @@ function renderBrand(brand) {
   if (!brand) return;
   
   const logoEl = document.getElementById('brandLogo');
-  const titleEl = document.getElementById('brandTitle');
-  const taglineEl = document.getElementById('brandTagline');
+  const titleEl = document.getElementById('brandTitle'); // sr-only h1
+  const sloganEl = document.getElementById('brandSlogan');
   const descEl = document.getElementById('brandDescription');
 
   if (logoEl && brand.logo) logoEl.src = brand.logo;
   if (titleEl && brand.name) titleEl.textContent = brand.name;
-  if (taglineEl && brand.tagline) taglineEl.textContent = brand.tagline;
+  if (sloganEl && brand.slogan) sloganEl.textContent = brand.slogan;
   if (descEl && brand.description) descEl.textContent = brand.description;
 }
 
