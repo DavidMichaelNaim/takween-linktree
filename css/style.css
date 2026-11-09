@@ -162,14 +162,15 @@ body {
 }
 
 /* Logo — Inline SVG, frameless (White matching card) */
+/* viewBox cropped to content: "33 40 177 57" → ratio 177/57 ≈ 3.1 */
 .brand-logo {
   display: block;
-  width: 450px;
-  max-width: 100%;
-  /* viewBox="0 0 243.6 147.6" → aspect ratio 243.6/147.6 */
-  aspect-ratio: 243.6 / 147.6;
+  width: 340px;
+  max-width: 90%;
+  aspect-ratio: 177 / 57;
   height: auto;
   overflow: visible;
+  margin: 0 auto 8px;        /* ← bottom gap بين الشعار والسلوجن */
   filter: brightness(0) invert(1) drop-shadow(0 6px 24px rgba(0, 0, 0, 0.4));
   transition: transform var(--transition-bounce), filter var(--transition-fast);
   cursor: default;
@@ -847,7 +848,8 @@ body {
   }
 
   .brand-logo {
-    width: 185px;
+    width: 220px;        /* حجم الشعار على الموبايل */
+    margin-bottom: 6px;  /* مسافة أسفل الشعار على الموبايل */
   }
 
   .brand-slogan-badge {
