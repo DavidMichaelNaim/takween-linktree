@@ -8,7 +8,7 @@ const DEFAULT_DATA = {
     name: "تكوين | Takween",
     slogan: "هديتك... على طريقتك",
     description: "شكرًا لثقتك واختيارك لينا — سعداء إننا كنا جزء من اختيارك",
-    logo: "logo.svg"
+    logo: "assets/logo.svg"
   },
   featuredAction: {
     id: "catalog",
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', async () => {
  */
 async function loadData() {
   try {
-    const response = await fetch('data.json', { cache: 'no-cache' });
+    const response = await fetch('data/data.json', { cache: 'no-cache' });
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
