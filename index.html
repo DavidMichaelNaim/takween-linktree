@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تكوين | Takween</title>
+  
+  <!-- Meta tags for SEO & Social Media -->
+  <meta name="description" content="تكوين - حلول الطباعة ثلاثية الأبعاد والتصميم المبتكر. تواصل معنا واكتشف كتالوج منتجاتنا.">
+  <meta property="og:title" content="تكوين | Takween">
+  <meta property="og:description" content="حلول الطباعة ثلاثية الأبعاد والتصميم المبتكر. تواصل معنا واكتشف كتالوج منتجاتنا.">
+  <meta property="og:image" content="logo.svg">
+  <meta name="theme-color" content="#002c74">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+
+  <!-- Thmanyah Sans - Self-hosted local font -->
+  <link rel="preload" href="fonts/thmanyah-sans/thmanyah-sans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/thmanyah-sans/thmanyah-sans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/thmanyah-sans/thmanyah-sans-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/thmanyah-sans.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Lighting -->
+  <div class="ambient-glow glow-top"></div>
+  <div class="ambient-glow glow-bottom"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Main Container -->
+  <main class="page-wrapper">
+    <div class="card-container">
+      
+      <!-- Top Action Bar (Share) -->
+      <header class="top-nav">
+        <button id="shareBtn" class="action-pill-btn" aria-label="مشاركة الصفحة" title="مشاركة الصفحة">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+          </svg>
+          <span>مشاركة</span>
+        </button>
+      </header>
+
+      <!-- Brand Profile Section -->
+      <section class="brand-section" id="brandSection">
+        <div class="logo-wrapper">
+          <div class="logo-ring"></div>
+          <img src="logo.svg" alt="شعار تكوين Takween" class="brand-logo" id="brandLogo" />
+        </div>
+        <h1 class="brand-title" id="brandTitle">تكوين | Takween</h1>
+        <p class="brand-tagline" id="brandTagline">3D Printing & Digital Fabrication</p>
+        <p class="brand-description" id="brandDescription">حلول الطباعة ثلاثية الأبعاد والتصميم المبتكر</p>
+      </section>
+
+      <!-- Featured Action (Catalog) -->
+      <section class="featured-section" id="featuredSection">
+        <!-- Rendered dynamically by script.js -->
+        <div class="skeleton skeleton-featured"></div>
+      </section>
+
+      <!-- Section Divider -->
+      <div class="section-heading">
+        <span class="heading-line"></span>
+        <span class="heading-text">قنوات التواصل المباشر</span>
+        <span class="heading-line"></span>
+      </div>
+
+      <!-- Links & Contacts List -->
+      <section class="links-section" id="linksContainer">
+        <!-- Rendered dynamically by script.js -->
+        <div class="skeleton skeleton-link"></div>
+        <div class="skeleton skeleton-link"></div>
+      </section>
+
+      <!-- Quick Social Icons Row -->
+      <section class="social-row" id="socialRow">
+        <!-- Rendered dynamically by script.js -->
+      </section>
+
+      <!-- Footer -->
+      <footer class="page-footer">
+        <p id="copyrightText">جميع الحقوق محفوظة © تكوين Takween</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast" role="alert" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toastMessage">تم نسخ الرابط بنجاح!</span>
+  </div>
+
+  <!-- Share Modal / Dialog -->
+  <dialog id="shareModal" class="modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>مشاركة رابط تكوين</h3>
+        <button id="closeModalBtn" class="close-btn" aria-label="إغلاق">&times;</button>
+      </div>
+      <p class="modal-description">انسخ الرابط أو شاركه مباشرة عبر تطبيقات التواصل:</p>
+      
+      <div class="copy-url-group">
+        <input type="text" id="shareUrlInput" readonly dir="ltr" />
+        <button id="copyUrlBtn" class="copy-btn">نسخ الرابط</button>
+      </div>
+
+      <div class="modal-socials" id="modalSocials">
+        <!-- Social share options -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

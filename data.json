@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "تكوين | Takween",
+    "tagline": "3D Printing & Digital Fabrication",
+    "description": "حلول الطباعة ثلاثية الأبعاد والتصميم المبتكر. تواصل معنا واكتشف منتجاتنا.",
+    "logo": "logo.svg"
+  },
+  "featuredAction": {
+    "id": "catalog",
+    "title": "تصفح كتالوج المنتجات",
+    "subtitle": "اكتشف أحدث التصاميم والمنتجات (Google Drive)",
+    "url": "https://drive.google.com/file/d/1kdmuynI2LaT-xco_KB71YyWGpDWmgU9D/view?usp=sharing",
+    "badge": "جديد ومميز",
+    "icon": "catalog",
+    "buttonText": "فتح الكتالوج الآن",
+    "isExternal": true
+  },
+  "contactLinks": [
+    {
+      "id": "whatsapp",
+      "title": "تواصل عبر واتساب",
+      "subtitle": "+20 10 99314937 • للاستفسار و الطلب",
+      "url": "https://wa.me/201099314937",
+      "phone": "+20 10 99314937",
+      "icon": "whatsapp",
+      "isExternal": true
+    },
+    {
+      "id": "facebook",
+      "title": "تابعنا على فيسبوك",
+      "subtitle": "أحدث البوستات، الموديلات، وآراء العملاء",
+      "url": "https://www.facebook.com/profile.php?id=61595610625652",
+      "icon": "facebook",
+      "badge": "صفحتنا الرسمية",
+      "isExternal": true
+    }
+  ],
+  "socialIcons": [
+    {
+      "name": "واتساب",
+      "url": "https://wa.me/201099314937",
+      "icon": "whatsapp",
+      "ariaLabel": "تواصل عبر واتساب"
+    },
+    {
+      "name": "فيسبوك",
+      "url": "https://www.facebook.com/profile.php?id=61595610625652",
+      "icon": "facebook",
+      "ariaLabel": "صفحة فيسبوك"
+    },
+    {
+      "name": "اتصال",
+      "url": "tel:+201099314937",
+      "icon": "phone",
+      "ariaLabel": "اتصال هاتفي"
+    }
+  ],
+  "footer": {
+    "copyright": "جميع الحقوق محفوظة © تكوين Takween",
+    "year": 2026
+  }
+}
