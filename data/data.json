@@ -1,25 +1,25 @@
-{
+﻿{
   "brand": {
-    "name": "تكوين | Takween",
-    "slogan": "هديتك... على طريقتك",
-    "description": "شكرًا لثقتك واختيارك لينا — سعداء إننا كنا جزء من اختيارك",
-    "logo": "assets/logo.svg"
+    "name": "╪¬┘â┘ê┘è┘å | Takween",
+    "slogan": "┘ç╪»┘è╪¬┘â... ╪╣┘ä┘ë ╪╖╪▒┘è┘é╪¬┘â",
+    "description": "╪┤┘â╪▒┘ï╪º ┘ä╪½┘é╪¬┘â ┘ê╪º╪«╪¬┘è╪º╪▒┘â ┘ä┘è┘å╪º ΓÇö ╪│╪╣╪»╪º╪í ╪Ñ┘å┘å╪º ┘â┘å╪º ╪¼╪▓╪í ┘à┘å ╪º╪«╪¬┘è╪º╪▒┘â",
+    "logo": "logo.svg"
   },
   "featuredAction": {
     "id": "catalog",
-    "title": "تصفح كتالوج المنتجات",
-    "subtitle": "اكتشف أحدث التصاميم والمنتجات",
+    "title": "╪¬╪╡┘ü╪¡ ┘â╪¬╪º┘ä┘ê╪¼ ╪º┘ä┘à┘å╪¬╪¼╪º╪¬",
+    "subtitle": "╪º┘â╪¬╪┤┘ü ╪ú╪¡╪»╪½ ╪º┘ä╪¬╪╡╪º┘à┘è┘à ┘ê╪º┘ä┘à┘å╪¬╪¼╪º╪¬",
     "url": "https://drive.google.com/file/d/1kdmuynI2LaT-xco_KB71YyWGpDWmgU9D/view?usp=sharing",
-    "badge": "جديد ومميز",
+    "badge": "╪¼╪»┘è╪» ┘ê┘à┘à┘è╪▓",
     "icon": "catalog",
-    "buttonText": "فتح الكتالوج الآن",
+    "buttonText": "┘ü╪¬╪¡ ╪º┘ä┘â╪¬╪º┘ä┘ê╪¼ ╪º┘ä╪ó┘å",
     "isExternal": true
   },
   "contactLinks": [
     {
       "id": "whatsapp",
-      "title": "تواصل عبر واتساب",
-      "subtitle": "+20 10 99314937 • للاستفسار و الطلب",
+      "title": "╪¬┘ê╪º╪╡┘ä ╪╣╪¿╪▒ ┘ê╪º╪¬╪│╪º╪¿",
+      "subtitle": "+20 10 99314937 ΓÇó ┘ä┘ä╪º╪│╪¬┘ü╪│╪º╪▒ ┘ê ╪º┘ä╪╖┘ä╪¿",
       "url": "https://wa.me/201099314937",
       "phone": "+20 10 99314937",
       "icon": "whatsapp",
@@ -27,36 +27,36 @@
     },
     {
       "id": "facebook",
-      "title": "تابعنا على فيسبوك",
-      "subtitle": "أحدث البوستات، الموديلات، وآراء العملاء",
+      "title": "╪¬╪º╪¿╪╣┘å╪º ╪╣┘ä┘ë ┘ü┘è╪│╪¿┘ê┘â",
+      "subtitle": "╪ú╪¡╪»╪½ ╪º┘ä╪¿┘ê╪│╪¬╪º╪¬╪î ╪º┘ä┘à┘ê╪»┘è┘ä╪º╪¬╪î ┘ê╪ó╪▒╪º╪í ╪º┘ä╪╣┘à┘ä╪º╪í",
       "url": "https://www.facebook.com/profile.php?id=61595610625652",
       "icon": "facebook",
-      "badge": "صفحتنا الرسمية",
+      "badge": "╪╡┘ü╪¡╪¬┘å╪º ╪º┘ä╪▒╪│┘à┘è╪⌐",
       "isExternal": true
     }
   ],
   "socialIcons": [
     {
-      "name": "واتساب",
+      "name": "┘ê╪º╪¬╪│╪º╪¿",
       "url": "https://wa.me/201099314937",
       "icon": "whatsapp",
-      "ariaLabel": "تواصل عبر واتساب"
+      "ariaLabel": "╪¬┘ê╪º╪╡┘ä ╪╣╪¿╪▒ ┘ê╪º╪¬╪│╪º╪¿"
     },
     {
-      "name": "فيسبوك",
+      "name": "┘ü┘è╪│╪¿┘ê┘â",
       "url": "https://www.facebook.com/profile.php?id=61595610625652",
       "icon": "facebook",
-      "ariaLabel": "صفحة فيسبوك"
+      "ariaLabel": "╪╡┘ü╪¡╪⌐ ┘ü┘è╪│╪¿┘ê┘â"
     },
     {
-      "name": "اتصال",
+      "name": "╪º╪¬╪╡╪º┘ä",
       "url": "tel:+201099314937",
       "icon": "phone",
-      "ariaLabel": "اتصال هاتفي"
+      "ariaLabel": "╪º╪¬╪╡╪º┘ä ┘ç╪º╪¬┘ü┘è"
     }
   ],
   "footer": {
-    "copyright": "جميع الحقوق محفوظة © تكوين Takween",
+    "copyright": "╪¼┘à┘è╪╣ ╪º┘ä╪¡┘é┘ê┘é ┘à╪¡┘ü┘ê╪╕╪⌐ ┬⌐ ╪¬┘â┘ê┘è┘å Takween",
     "year": 2026
   }
 }

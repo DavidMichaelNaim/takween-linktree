@@ -8,12 +8,12 @@ const DEFAULT_DATA = {
     name: "تكوين | Takween",
     slogan: "هديتك... على طريقتك",
     description: "شكرًا لثقتك واختيارك لينا — سعداء إننا كنا جزء من اختيارك",
-    logo: "assets/logo.svg"
+    logo: "logo.svg"
   },
   featuredAction: {
     id: "catalog",
     title: "تصفح كتالوج المنتجات",
-    subtitle: "اكتشف أحدث التصاميم والمنتجات (Google Drive)",
+    subtitle: "اكتشف أحدث التصاميم والمنتجات",
     url: "https://drive.google.com/file/d/1kdmuynI2LaT-xco_KB71YyWGpDWmgU9D/view?usp=sharing",
     badge: "جديد ومميز",
     icon: "catalog",
@@ -22,36 +22,22 @@ const DEFAULT_DATA = {
   },
   contactLinks: [
     {
-      id: "whatsapp",
-      title: "تواصل عبر واتساب",
-      subtitle: "+20 10 99314937 | استفسارات وطلبات فورية",
-      url: "https://wa.me/201099314937",
-      phone: "+20 10 99314937",
-      icon: "whatsapp",
-      badge: "سريع الرد",
-      badgeClass: "badge-whatsapp",
-      isExternal: true
+      "id": "whatsapp",
+      "title": "تواصل عبر واتساب",
+      "subtitle": "+20 10 99314937 • للاستفسار و الطلب",
+      "url": "https://wa.me/201099314937",
+      "phone": "+20 10 99314937",
+      "icon": "whatsapp",
+      "isExternal": true
     },
     {
-      id: "facebook",
-      title: "تابعنا على فيسبوك",
-      subtitle: "أحدث المنشورات، النماذج، وآراء العملاء",
-      url: "https://www.facebook.com/profile.php?id=61595610625652",
-      icon: "facebook",
-      badge: "صفحتنا الرسمية",
-      badgeClass: "badge-facebook",
-      isExternal: true
-    },
-    {
-      id: "phone",
-      title: "اتصال هاتفي مباشر",
-      subtitle: "+20 10 99314937 | متاح خلال أوقات العمل",
-      url: "tel:+201099314937",
-      phone: "+20 10 99314937",
-      icon: "phone",
-      badge: "مكالمة هاتفية",
-      badgeClass: "badge-phone",
-      isExternal: false
+      "id": "facebook",
+      "title": "تابعنا على فيسبوك",
+      "subtitle": "أحدث البوستات، الموديلات، وآراء العملاء",
+      "url": "https://www.facebook.com/profile.php?id=61595610625652",
+      "icon": "facebook",
+      "badge": "صفحتنا الرسمية",
+      "isExternal": true
     }
   ],
   socialIcons: [
@@ -76,7 +62,7 @@ const DEFAULT_DATA = {
   ],
   footer: {
     copyright: "جميع الحقوق محفوظة © تكوين Takween",
-    year: new Date().getFullYear()
+    year: 2026
   }
 };
 
@@ -174,7 +160,9 @@ function renderBrand(brand) {
   const sloganEl = document.getElementById('brandSlogan');
   const descEl = document.getElementById('brandDescription');
 
-  if (logoEl && brand.logo) logoEl.src = brand.logo;
+  if (logoEl && brand.logo) {
+    logoEl.src = brand.logo.includes('/') ? brand.logo : 'assets/' + brand.logo;
+  }
   if (titleEl && brand.name) titleEl.textContent = brand.name;
   if (sloganEl && brand.slogan) sloganEl.textContent = brand.slogan;
   if (descEl && brand.description) descEl.textContent = brand.description;
